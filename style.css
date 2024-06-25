@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+body {
+  background-color: rgb(65, 65, 240);
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
+}
+#title {
+  margin-top: 50px;
+}
+
+#description {
+  font-weight: lighter;
+  margin: 10px auto;
+  letter-spacing: 2px;
+}
+
+#survey-form {
+  background: rgb(2, 2, 70);
+  border-radius: 10px;
+  z-index: 2;
+  line-height: 25px;
+  width: 700px;
+  padding: 50px;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+#name,
+#email,
+#number,
+#dropdown {
+  width: 100%;
+  border-radius: 2px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+::placeholder {
+  font-size: large;
+}
+#textarea {
+  width: 100%;
+  padding: 20px;
+}
+
+#span {
+  font-size: small;
+}
+
+select {
+  font-size: large;
+  color: rgb(109, 109, 112);
+}
+
+#radio {
+  margin: 7px auto;
+}
+#Check {
+  margin: 7px auto;
+}
+
+#submit {
+  height: 50px;
+  color: white;
+  font-size: large;
+  width: 100%;
+  background: rgb(82, 240, 82);
+  margin-top: 20px;
+  border-radius: 3px;
+}
